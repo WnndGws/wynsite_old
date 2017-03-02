@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = open(os.path.expanduser('~/wynsite_secretkey')).read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['192.168.1.126', 'gouws.com.au']
 
@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['192.168.1.126', 'gouws.com.au']
 # Application definition
 
 INSTALLED_APPS = [
+    'wynand',
     'home',
     'django.contrib.admin',
     'django.contrib.auth',
