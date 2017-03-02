@@ -1,0 +1,9 @@
+# Ignore compiled python #
+*.pyc
+
+# Ignore venv folders
+bin/
+lib/
+
+# Ignore website's socket
+*.sock

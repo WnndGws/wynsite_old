@@ -1,0 +1,10 @@
+* get webroot from sudo nginx -V and find 'prefix'
+    sudo certbot certonly --webroot -w /usr/share/nginx/html/ -d gouws.com.au -d www.gouws.com.au
+
+* follow tutorials at:
+    http://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html
+    https://gist.github.com/cecilemuller/a26737699a7e70a7093d4dc115915de8
+
+* files in nginxsetup go in /etc/nginx/snippets/
+
+* secret key needs to just be in a file somewhere else surrounded by ''
