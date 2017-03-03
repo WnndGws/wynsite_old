@@ -1,9 +1,13 @@
 {% extends "wynand/header.html" %}
 
+{% load staticfiles %}
 {% block content %}
 
-<p> Welcome to Wynand Gouws' personal website </p>
+{% include "wynand/includes/navbar.html" %}
 
-{% include "wynand/includes/htmlsnippet.html" %}
+<div class="wrapper">
+<div class="header header-filter" style="background-image" href="{% static '/img/wynand/city.jpg' %};"></div>
+
+{% include "wynand/includes/profile.html" %}
 
 {% endblock %}
