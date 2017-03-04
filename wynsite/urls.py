@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^$', include('home.urls')),
     url(r'^home/$', include('home.urls')),
     url(r'^wynand/$', include ('wynand.urls')),
+    url(r'^stefan/$', include ('stefan.urls')),
 ]

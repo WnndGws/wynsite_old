@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['192.168.1.126', 'gouws.com.au']
 # Application definition
 
 INSTALLED_APPS = [
+    'stefan',
     'wynand',
     'home',
     'django.contrib.admin',
@@ -121,5 +122,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "static/")
-#STATIC_ROOT = os.path.join(BASE_DIR, "")
-#STATICFILES_DIRS = (os.path.join(BASE_DIR, "static/"),)
