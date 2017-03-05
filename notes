@@ -5,6 +5,6 @@
     http://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html
     https://gist.github.com/cecilemuller/a26737699a7e70a7093d4dc115915de8
 
-* files in nginxsetup go in /etc/nginx/snippets/
+* files in nginxsetup go in /etc/nginx/snippets/ except for nginx.conf which just goes directly in /etc/nginx/
 
 * secret key needs to just be in a file somewhere else surrounded by ''
